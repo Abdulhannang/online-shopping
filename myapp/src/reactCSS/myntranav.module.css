@@ -1,0 +1,32 @@
+#nav {
+  height: 80px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.logo {
+  width: 8%;
+}
+#nav > ul {
+  display: grid;
+  border: 2px solid black;
+  height: 100%;
+  width: 40%;
+  list-style: none;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+#nav li {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 12px;
+  border: 1px solid black;
+  height: 100%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
